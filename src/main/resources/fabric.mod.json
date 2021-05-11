@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "game-directory-setter",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Game Directory Setter",
+  "description": "Sets the game directory to fix sound in MultiMC",
   "authors": [
-    "Me!"
+    "leo60228"
   ],
   "contact": {
-    "issues": "https://github.com/minecraft-cursed-legacy/Example-Mod/issues",
-    "sources": "https://github.com/minecraft-cursed-legacy/Example-Mod"
+    "issues": "https://github.com/leo60228/game-directory-setter",
+    "sources": "https://github.com/leo60228/game-directory-setter"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT OR Apache-2.0",
+  "icon": "assets/game-directory-setter/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "init": [
-      "io.github.minecraftcursedlegacy.example.ExampleMod"
+      "dev.vriska.gamedirectorysetter.GameDirectorySetterMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "game-directory-setter.mixins.json"
   ],
 
   "depends": {
